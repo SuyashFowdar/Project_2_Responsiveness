@@ -58,8 +58,12 @@ header > nav > a:after {
   width: 48px;
 }
 
-.section-1 figure {
-  margin: 10px;
+main {
+  padding: 10px;
+}
+
+.w-100 {
+  width: 100%;
 }
 
 @media screen and (max-width: 767px) {
