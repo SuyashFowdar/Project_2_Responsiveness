@@ -7,7 +7,7 @@
 @font-face {
   font-family: maquette;
   font-weight: bold;
-  src: url("assets/fonts/ars-maquette-bold.woff");
+  src: url("assets/fonts/ars-maquette-bold-alt.woff");
 }
 
 @font-face {
@@ -88,19 +88,38 @@ a {
   height: 44px;
   background-color: #f42;
   color: white;
+  font-family: maquette;
+  font-weight: 700;
+  font-size: 18px;
 }
 
 .latest-funding-news header > h4 {
   padding-top: 10px;
-}
-
-.investment-icon{
-	text-align: center;
+  font-family: maquette;
+  font-weight: 700;
+  font-size: 18px;
 }
 
 .latest-funding-news header > h5 {
-  color: grey;
+  font-family: shentox;
+  font-size: 11px;
   padding-bottom: 10px;
+  opacity: 0.5;
+}
+
+.investment-icon {
+	text-align: center;
+}
+
+.investment-icon > a {
+  margin-top: 12px;
+  font-family: maquette;
+  font-size: 13px;
+  color: #555;
+}
+
+.investment-icon > img {
+  margin: 12px 10px 0 16px;
 }
 
 .latest-funding-news header > img {
@@ -123,6 +142,13 @@ a {
 
 .latest-funding-news small {
   padding: 16px;
+  font-family: maquette;
+  font-size: 12px;
+  color: #555;
+}
+
+.latest-funding-news small > span {
+  color: #aaa;
 }
 
 .latest-funding-news hr {
@@ -162,8 +188,21 @@ a {
   text-decoration: line-through;
 }
 
+.latest-deals figure > figcaption > p,
+.latest-news figure > figcaption > p {
+  font-family: maquette;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.latest-deals small,
 .latest-news small {
-  color: grey;
+  font-family: maquette;
+  font-size: 12px;
+}
+
+.latest-news small {
+  color: #aaa;
 }
 
 .latest-deals figure img,
@@ -248,11 +287,20 @@ main {
   background-image: linear-gradient(transparent, #000);
 }
 
-.section-1 figure > figcaption .row a > img {
+.section-1 figure > figcaption .row a img {
   height: 10px;
   width: 10px;
   margin: 0 10px;
+}
+
+.section-1 figure > figcaption .row img {
   filter: invert(1);
+}
+
+.section-1 figure > figcaption .row > img {
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
 }
 
 .section-4 .row-1 figure > figcaption > div a,
@@ -260,6 +308,9 @@ main {
 .section-1 figure > figcaption > div a,
 .section-1 figure > figcaption > div {
   color: grey;
+  font-size: 12px;
+  font-family: maquette;
+  font-style: normal;
 }
 
 .section-4 .row-1 figure > figcaption > div > time,
@@ -279,8 +330,73 @@ main {
   color: #fff;
 }
 
-section h2 > a > img {
+.section-4 > article:last-child figcaption {
+  color: #f42;4
+}
+
+.section-4 > article:last-child figcaption h4 {
+  font-family: shentox;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.section-4 > article:last-child figcaption p {
+  font-family: maquette;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.section-4 > article:last-child ul > li {
+  font-family: maquette;
+  font-size: 13px;
+  font-weight: 400;
+  border-bottom: 1px solid #eee;
+  padding: 6px 0 6px 30px;
+  margin-left: -30px;
+}
+
+.section-4 > article:last-child ul > li > a {
+  color: #555;
+}
+
+.section-4 > article:last-child ul {
+  list-style: none;
+}
+
+.section-4 > article:last-child ul > li::before {
+  content: "\2022";
+  color: #f42;
+  font-weight: bold;
+  margin-left: -20px;
+  width: 20px;
+  display: inline-block;
+}
+
+section figcaption h3 {
+  font-family: avalon;
+  font-size: 20px;
+} 
+
+section h2 > a {
   height: 13px;
+}
+
+section h2 > a:after {
+  content: '>';
+  font-weight: bolder;
+  margin-left: 5px;
+}
+
+section h2 > a:after,
+section h2 > a {
+  color: rgb(255, 68, 34);
+  font-family: avalon;
+  font-size: 28px;
+}
+
+section h2 > a:hover:after,
+section h2 > a:hover {
+  color: #000;
 }
 
 .w-100 {
@@ -295,7 +411,10 @@ section h2 > a > img {
 
 .footer-address {
 	background-color: #000;
-	color: white;
+	color: #aaa;
+  font-weight: 400;
+  font-size: 13px;
+  font-family: maquette;
 }
 
 .footer-icon {
@@ -316,7 +435,15 @@ section h2 > a > img {
 }
 
 .footer-icon > div:last-child > a {
-  margin: 10px 0 0 7.5px;
+  margin-left: 7.5px;
+  font-family: shentox;
+  font-size: 13px;
+  font-weight: 500;
+  color: #aaa;
+}
+
+.footer-icon > div:last-child {
+  margin-top: 20px;
 }
 
 .footer-icon > div:first-child > img:nth-child(6),
@@ -324,6 +451,6 @@ section h2 > a > img {
   filter: invert(1);
 }
 
-.footer-address > img {
-  float: left;
+.footer-address img {
+  margin-right: 5px;
 }
