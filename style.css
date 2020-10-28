@@ -1,3 +1,31 @@
+@font-face {
+  font-family: maquette;
+  font-weight: normal;
+  src: url("assets/fonts/ars-maquette-regular.woff");
+}
+
+@font-face {
+  font-family: maquette;
+  font-weight: bold;
+  src: url("assets/fonts/ars-maquette-bold.woff");
+}
+
+@font-face {
+  font-family: shentox;
+  src: url("assets/fonts/shentox-medium.woff2");
+}
+
+@font-face {
+  font-family: avalon;
+  font-weight: bold;
+  src: url("assets/fonts/avalon-bold.woff");
+}
+
+@font-face {
+  font-family: acsbi;
+  src: url("assets/fonts/acsbi.ttf");
+}
+
 h4,
 p,
 figure,
