@@ -94,6 +94,10 @@ a {
   padding-top: 10px;
 }
 
+.investment-icon{
+	text-align: center;
+}
+
 .latest-funding-news header > h5 {
   color: grey;
   padding-bottom: 10px;
