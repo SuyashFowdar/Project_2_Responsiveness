@@ -1,6 +1,12 @@
+.section-4 figcaption > h4,
+.section-4 figcaption > p,
 figure,
 body {
   margin: 0;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 a {
@@ -15,8 +21,23 @@ a {
 }
 
 .row,
+.row-reverse,
 .column {
   display: flex;
+}
+
+.section-4 figure.row-reverse img {
+  width: 96px;
+  height: 96px;
+}
+
+.section-4 figure.row-reverse {
+  background-color: rgba(255,68,34,.08);
+}
+
+.section-4 figure.row-reverse > figcaption {
+  padding: 14px;
+  height: 96px;
 }
 
 .latest-funding-news {
@@ -75,6 +96,10 @@ a {
 .latest-funding-news hr {
   margin: 0;
   border-color: rgba(255,68,34,.08);
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
 }
 
 .column {
@@ -167,11 +192,17 @@ main {
   margin-top: 48px;
 }
 
+.section-4 .row-1 figure,
 .section-1 figure {
   position: relative;
+  width: 100%;
+}
+
+.section-1 figure {
   margin-bottom: 10px;
 }
 
+.section-4 .row-1 figure > figcaption,
 .section-1 figure > figcaption {
   position: absolute;
   top: 0;
@@ -181,15 +212,26 @@ main {
   background-image: linear-gradient(transparent, #000);
 }
 
+.section-4 .row-1 figure > figcaption > div a,
+.section-4 .row-1 figure > figcaption > div,
 .section-1 figure > figcaption > div a,
 .section-1 figure > figcaption > div {
   color: grey;
 }
 
-.section-1 figure > figcaption > div > * {
+.section-4 .row-1 figure > figcaption > div > time,
+.section-4 .row-1 figure > figcaption > div > span,
+.section-1 figure > figcaption > div > time,
+.section-1 figure > figcaption > div > span {
   margin-left: 10px;
 }
 
+.section-4 .row-1 figure > figcaption,
+.section-1 figure > figcaption {
+  padding: 10px;
+}
+
+.section-4 .row-1 figure > figcaption a,
 .section-1 figure > figcaption a {
   color: #fff;
 }
