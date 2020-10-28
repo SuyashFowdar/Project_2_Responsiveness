@@ -45,7 +45,6 @@ a {
 .nav-topLast li,
 .nav-bottom li {
   list-style: none;
-  text-decoration: none;
 }
 
 .row,
@@ -174,8 +173,6 @@ a {
 
 .latest-deals,
 .latest-news {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
   margin: 40px 0;
 }
 
@@ -331,7 +328,7 @@ main {
 }
 
 .section-4 > article:last-child figcaption {
-  color: #f42;4
+  color: #f42;
 }
 
 .section-4 > article:last-child figcaption h4 {
@@ -402,11 +399,28 @@ section h2 > a:hover {
 .w-100 {
   width: 100%;
 }
-
+/* mobile */
 @media screen and (max-width: 767px) {
-  .hide-mob {
+	.hide-mob1,
+	.hide-mob2 {
     display: none;
-  }
+	}
+	
+}
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+	.hide-tab{
+		display: none;
+	}
+	
+}
+/* Desktop */
+@media screen and (min-width: 1024px) {
+  .hide-desk {
+    display: none;
+	}
+	
 }
 
 .footer-address {
