@@ -1,5 +1,5 @@
-.section-4 figcaption > h4,
-.section-4 figcaption > p,
+h4,
+p,
 figure,
 body {
   margin: 0;
@@ -180,8 +180,12 @@ header > nav > a > img {
   align-items: flex-start;
 }
 
-.search {
+header > nav > div.clickable {
   width: 48px;
+}
+
+.search {
+  margin-left: auto;
 }
 
 main {
@@ -212,6 +216,13 @@ main {
   background-image: linear-gradient(transparent, #000);
 }
 
+.section-1 figure > figcaption .row a > img {
+  height: 10px;
+  width: 10px;
+  margin: 0 10px;
+  filter: invert(1);
+}
+
 .section-4 .row-1 figure > figcaption > div a,
 .section-4 .row-1 figure > figcaption > div,
 .section-1 figure > figcaption > div a,
@@ -236,6 +247,10 @@ main {
   color: #fff;
 }
 
+section h2 > a > img {
+  height: 13px;
+}
+
 .w-100 {
   width: 100%;
 }
@@ -246,24 +261,37 @@ main {
   }
 }
 
-footer{
-
-}
-
 .footer-address {
 	background-color: #000;
 	color: white;
 }
-.footer-icon{
+
+.footer-icon {
 	margin: 0 auto;
-background-color: #000;
-opacity: 0.9;
+  background-color: #000;
+  opacity: 0.9;
 }
 
 .footer-address,
 .footer-icon {
-	padding: 30px 50px;
+  height: 160px;
 }
 
-.footer-address:nth-of-type(2) {
+.footer-icon > div:first-child > img {
+  height: 30px;
+  width: 30px;
+  margin: 7.5px;
+}
+
+.footer-icon > div:last-child > a {
+  margin: 10px 0 0 7.5px;
+}
+
+.footer-icon > div:first-child > img:nth-child(6),
+.footer-icon > div:first-child > img:nth-child(7) {
+  filter: invert(1);
+}
+
+.footer-address > img {
+  float: left;
 }
