@@ -245,3 +245,25 @@ main {
     display: none;
   }
 }
+
+footer{
+
+}
+
+.footer-address {
+	background-color: #000;
+	color: white;
+}
+.footer-icon{
+	margin: 0 auto;
+background-color: #000;
+opacity: 0.9;
+}
+
+.footer-address,
+.footer-icon {
+	padding: 30px 50px;
+}
+
+.footer-address:nth-of-type(2) {
+}
