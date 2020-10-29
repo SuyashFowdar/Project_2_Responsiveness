@@ -586,6 +586,10 @@ main {
     column-gap: 15px;
   }
 
+  header > nav > a {
+    height: 80px;
+  }
+
   .section-3 > header h2,
   .section-3 > header div a {
     width: 100%;
