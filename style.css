@@ -26,6 +26,168 @@
   src: url("assets/fonts/acsbi.ttf");
 }
 
+a {
+  text-decoration: none;
+}
+
+header > nav > a {
+  background-color: #000;
+  height: 48px;
+  width: 106px;
+}
+
+section h2 > a {
+  height: 13px;
+}
+
+section h2 > a::after,
+section h2 > a {
+  color: rgb(255, 68, 34);
+  font-family: avalon, Arial, Helvetica, sans-serif;
+  font-size: 28px;
+}
+
+.investment-icon > a {
+  margin-top: 12px;
+  font-family: maquette, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #555;
+}
+
+.nav-bottom li > a {
+  color: #aaa;
+  font-family: shentox, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.section-3 > header div a {
+  padding: 0 10px;
+  color: #f42;
+}
+
+.section-1 figure > figcaption a {
+  color: #fff;
+}
+
+section h2 > a::after {
+  content: '>';
+  font-weight: bolder;
+  margin-left: 5px;
+}
+
+section h2 > a:hover::after,
+section h2 > a:hover {
+  color: #000;
+}
+
+.section-1 figure > figcaption > div a {
+  color: grey;
+  font-size: 12px;
+  font-family: maquette, Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+.section-3 > div > a:first-of-type {
+  padding: 16px 16px 10px;
+}
+
+.section-3 > div > a:last-of-type {
+  padding: 0 16px 16px;
+}
+
+.nav-top > .col-1 li > a,
+.nav-top > .col-2 li > a {
+  display: flex;
+  align-items: center;
+  color: #aaa;
+}
+
+.nav-bottom li > a:hover {
+  color: #000;
+}
+
+.section-1 figure > figcaption > div {
+  color: grey;
+  font-size: 12px;
+  font-family: maquette, Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+.footer-icon > div:last-child {
+  margin-top: 20px;
+}
+
+.section-4 .row-1 figure > figcaption a {
+  color: #fff;
+}
+
+.section-3 > header div a:hover {
+  color: #000;
+}
+
+.section-4 > article:last-child ul > li > a {
+  color: #555;
+}
+
+.section-4 .row-1 figure > figcaption > div a,
+.section-4 .row-1 figure > figcaption > div {
+  color: grey;
+  font-size: 12px;
+  font-family: maquette, Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+header > nav > a > img {
+  width: 66px;
+}
+
+.investment-icon > img {
+  margin: 12px 10px 0 16px;
+}
+
+.footer-address img {
+  margin-right: 5px;
+}
+
+.footer-icon > div:first-child > img {
+  height: 30px;
+  width: 30px;
+  margin: 7.5px;
+}
+
+.section-4 figure.row-reverse img {
+  width: 96px;
+  height: 96px;
+}
+
+.section-3 .grid-3 header > img {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.section-1 figure > figcaption .row img {
+  filter: invert(1);
+}
+
+.section-1 figure > figcaption .row > img {
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+}
+
+.section-1 figure > figcaption .row a img {
+  height: 10px;
+  width: 10px;
+  margin: 0 10px;
+}
+
 h4,
 p,
 figure,
@@ -39,10 +201,6 @@ body {
 
 body {
   position: relative;
-}
-
-a {
-  text-decoration: none;
 }
 
 .nav-top ul,
@@ -74,90 +232,6 @@ a {
   display: flex;
 }
 
-header > nav > a {
-  background-color: #000;
-  height: 48px;
-  width: 106px;
-}
-
-header > nav > a > img {
-  width: 66px;
-}
-
-.investment-icon > a {
-  margin-top: 12px;
-  font-family: maquette, Arial, Helvetica, sans-serif;
-  font-size: 13px;
-  color: #555;
-}
-
-.nav-bottom li > a {
-  color: #aaa;
-  font-family: shentox, Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  display: flex;
-  align-items: center;
-}
-
-.section-3 > header div a {
-  padding: 0 10px;
-  color: #f42;
-}
-
-.section-3 > div > a:first-of-type {
-  padding: 16px 16px 10px;
-}
-
-.section-3 > div > a:last-of-type {
-  padding: 0 16px 16px;
-}
-
-.nav-top > .col-1 li > a,
-.nav-top > .col-2 li > a {
-  display: flex;
-  align-items: center;
-}
-
-.nav-bottom li > a:hover {
-  color: #000;
-}
-
-.nav-top > .col-2 li > a {
-  font-family: maquette, Arial, Helvetica, sans-serif;
-  font-size: 13px;
-  color: hsla(0, 0%, 100%, 0.6);
-}
-
-.investment-icon > img {
-  margin: 12px 10px 0 16px;
-}
-
-.footer-address img {
-  margin-right: 5px;
-}
-
-.footer-icon > div:first-child > img {
-  height: 30px;
-  width: 30px;
-  margin: 7.5px;
-}
-
-.footer-icon > div:last-child > a {
-  margin-left: 7.5px;
-  font-family: shentox, Arial, Helvetica, sans-serif;
-  font-size: 13px;
-  font-weight: 500;
-  color: #aaa;
-}
-
-.footer-icon > div:last-child {
-  margin-top: 20px;
-}
-
-.section-3 > header div a:hover {
-  color: #000;
-}
-
 .nav-top > .col-1 li > a:hover,
 .nav-top > .col-2 li > a:hover {
   color: #fff;
@@ -180,11 +254,6 @@ nav {
 .row-reverse,
 .column {
   display: flex;
-}
-
-.section-4 figure.row-reverse img {
-  width: 96px;
-  height: 96px;
 }
 
 .section-4 figure.row-reverse {
@@ -223,6 +292,11 @@ body > header {
   background-color: rgba(255, 68, 34, 0.08);
 }
 
+section figcaption h3 {
+  font-family: avalon, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
 .section-3 .grid-3 header > h3,
 .section-3 .grid-3 header > h4,
 .section-3 .grid-3 header > h5 {
@@ -255,16 +329,6 @@ body > header {
 
 .investment-icon {
   text-align: center;
-}
-
-.section-3 .grid-3 header > img {
-  width: 60px;
-  height: 60px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin-top: 10px;
-  margin-left: 10px;
 }
 
 .section-3 small {
@@ -381,42 +445,11 @@ main {
   width: 100%;
 }
 
-.section-1 figure > figcaption .row a img {
-  height: 10px;
-  width: 10px;
-  margin: 0 10px;
-}
-
-.section-1 figure > figcaption .row img {
-  filter: invert(1);
-}
-
-.section-1 figure > figcaption .row > img {
-  width: 15px;
-  height: 15px;
-  margin-left: 10px;
-}
-
-.section-4 .row-1 figure > figcaption > div a,
-.section-4 .row-1 figure > figcaption > div,
-.section-1 figure > figcaption > div a,
-.section-1 figure > figcaption > div {
-  color: grey;
-  font-size: 12px;
-  font-family: maquette, Arial, Helvetica, sans-serif;
-  font-style: normal;
-}
-
-.section-4 .row-1 figure > figcaption > div > time,
-.section-4 .row-1 figure > figcaption > div > span,
 .section-1 figure > figcaption > div > time,
-.section-1 figure > figcaption > div > span {
+.section-1 figure > figcaption > div > span,
+.section-4 .row-1 figure > figcaption > div > time,
+.section-4 .row-1 figure > figcaption > div > span {
   margin-left: 10px;
-}
-
-.section-4 .row-1 figure > figcaption a,
-.section-1 figure > figcaption a {
-  color: #fff;
 }
 
 .section-4 > article:last-child figcaption {
@@ -444,10 +477,6 @@ main {
   margin-left: -30px;
 }
 
-.section-4 > article:last-child ul > li > a {
-  color: #555;
-}
-
 .section-4 > article:last-child ul {
   list-style: none;
 }
@@ -459,33 +488,6 @@ main {
   margin-left: -20px;
   width: 20px;
   display: inline-block;
-}
-
-section figcaption h3 {
-  font-family: avalon, Arial, Helvetica, sans-serif;
-  font-size: 20px;
-}
-
-section h2 > a {
-  height: 13px;
-}
-
-section h2 > a::after {
-  content: '>';
-  font-weight: bolder;
-  margin-left: 5px;
-}
-
-section h2 > a::after,
-section h2 > a {
-  color: rgb(255, 68, 34);
-  font-family: avalon, Arial, Helvetica, sans-serif;
-  font-size: 28px;
-}
-
-section h2 > a:hover::after,
-section h2 > a:hover {
-  color: #000;
 }
 
 .w-100 {
@@ -598,7 +600,7 @@ section h2 > a:hover {
   .figure3 figcaption h3 {
     font-family: avalon, Arial, Helvetica, sans-serif;
     font-size: 15px;
-  } 
+  }
 }
 
 /* Desktop */
