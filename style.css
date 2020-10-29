@@ -102,6 +102,8 @@ section h2 > a:hover {
   display: flex;
   align-items: center;
   color: #aaa;
+  font-family: maquette, Arial, Helvetica, sans-serif;
+  font-size: 13px;
 }
 
 .nav-bottom li > a:hover {
