@@ -8,7 +8,7 @@
     "stylelint": "13.3.x",
     "stylelint-scss": "3.17.x",
     "stylelint-config-standard": "20.0.x",
-    "stylelint-csstree-validator": ""
+    "stylelint-csstree-validator": "^1"
   },
   "browserslist": [
     "> 1%",
