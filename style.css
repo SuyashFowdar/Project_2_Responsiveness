@@ -83,12 +83,6 @@ section h2 > a:hover {
   color: #000;
 }
 
-.section-1 figure > figcaption > div:last-child a {
-  color: grey;
-  font-size: 12px;
-  font-style: normal;
-}
-
 .section-3 > div > a:first-of-type {
   padding: 16px 16px 10px;
 }
@@ -109,17 +103,6 @@ section h2 > a:hover {
   color: #000;
 }
 
-.section-1 figure > figcaption > div:last-child {
-  color: grey;
-  font-size: 12px;
-  font-style: normal;
-}
-
-.section-1 figure > figcaption > div:first-child {
-  justify-content: space-between;
-  margin-bottom: auto;
-}
-
 .footer-icon > div:last-child {
   margin-top: 20px;
 }
@@ -131,6 +114,23 @@ section h2 > a:hover {
 .section-5 > header div a:hover,
 .section-3 > header div a:hover {
   color: #000;
+}
+
+.section-1 figure > figcaption > div:last-child a {
+  color: grey;
+  font-size: 12px;
+  font-style: normal;
+}
+
+.section-1 figure > figcaption > div:last-child {
+  color: grey;
+  font-size: 12px;
+  font-style: normal;
+}
+
+.section-1 figure > figcaption > div:first-child {
+  justify-content: space-between;
+  margin-bottom: auto;
 }
 
 .section-4 > article:last-child ul > li > a {
@@ -175,6 +175,11 @@ header > nav > a > img {
   left: 0;
   margin-top: 10px;
   margin-left: 10px;
+}
+
+.footer-icon > div:first-child > img:nth-child(6),
+.footer-icon > div:first-child > img:nth-child(7) {
+  filter: invert(1);
 }
 
 .section-1 figure > figcaption .row:last-child img {
@@ -516,11 +521,6 @@ main {
   height: 160px;
 }
 
-.footer-icon > div:first-child > img:nth-child(6),
-.footer-icon > div:first-child > img:nth-child(7) {
-  filter: invert(1);
-}
-
 .section-1,
 .grid-2,
 .grid-3,
@@ -683,6 +683,10 @@ main {
     grid-row: 1/3;
   }
 
+  .space-around a {
+    color: white;
+  }
+
   .section-3 > header div a:nth-child(2) {
     border-left: 1px solid #f42;
     border-right: 1px solid #f42;
@@ -709,9 +713,5 @@ main {
   .space-around {
     gap: 10px;
     font-size: 20px;
-  }
-
-  .space-around a {
-    color: white;
   }
 }
