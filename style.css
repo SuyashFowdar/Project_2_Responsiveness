@@ -677,7 +677,32 @@ main {
     margin-bottom: 10px;
   }
 
-  header > nav {
-    height: 80px;
+  header > nav { height: 80px; }
+
+  .footer-address,
+  .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+  }
+
+  .space-around,
+  .row {
+    gap: 10px;
+    font-size: 20px;
+  }
+
+  .space-around,
+  .row a {
+    color: white;
+  }
+
+  .all-deals {
+    float: right;
+    font-size: 18px;
+    color: #f42;
+    font-weight: bolder;
+    margin-bottom: 30px;
   }
 }
