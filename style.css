@@ -679,22 +679,19 @@ main {
 
   header > nav { height: 80px; }
 
-  .footer-address,
-  .row {
+  .footer-address {
     display: flex;
     flex-direction: row;
     align-items: center;
     font-size: 18px;
   }
 
-  .space-around,
-  .row {
+  .space-around {
     gap: 10px;
     font-size: 20px;
   }
 
-  .space-around,
-  .row a {
+  .space-around a {
     color: white;
   }
 
