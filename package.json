@@ -1,0 +1,22 @@
+{
+  "name": "Project_2_Responsiveness",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Working on responsiveness",
+  "devDependencies": {
+    "hint": "6.0.x",
+    "stylelint": "13.3.x",
+    "stylelint-scss": "3.17.x",
+    "stylelint-config-standard": "20.0.x",
+    "stylelint-csstree-validator": "^1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "https://www.opensource.org/licenses/mit-license.php"
+  }
+}
